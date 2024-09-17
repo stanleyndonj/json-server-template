@@ -4,13 +4,13 @@
       "id": 1,
       "username": "john_doe",
       "password": "password123",
-      "library": [1, 2] // List of movie IDs in the user's library
+      "library": [1, 2] 
     },
     {
       "id": 2,
       "username": "jane_doe",
       "password": "securepassword",
-      "library": [3] // Movie IDs in this user's library
+      "library": [3] 
     }
   ],
   "movies": [
