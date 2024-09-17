@@ -1,9 +1,39 @@
 {
+  "users": [
+    {
+      "id": 1,
+      "username": "john_doe",
+      "password": "password123",
+      "library": [1, 2] // List of movie IDs in the user's library
+    },
+    {
+      "id": 2,
+      "username": "jane_doe",
+      "password": "securepassword",
+      "library": [3] // Movie IDs in this user's library
+    }
+  ],
   "movies": [
     {
-      "id": "1",
-      "title": "Movie Title",
-      "year": 2023
+      "id": 1,
+      "title": "The Shawshank Redemption",
+      "releaseDate": "1994",
+      "poster": "https://path-to-poster.jpg",
+      "imdbID": "tt0111161"
+    },
+    {
+      "id": 2,
+      "title": "The Godfather",
+      "releaseDate": "1972",
+      "poster": "https://path-to-poster.jpg",
+      "imdbID": "tt0068646"
+    },
+    {
+      "id": 3,
+      "title": "The Dark Knight",
+      "releaseDate": "2008",
+      "poster": "https://path-to-poster.jpg",
+      "imdbID": "tt0468569"
     }
   ]
 }
